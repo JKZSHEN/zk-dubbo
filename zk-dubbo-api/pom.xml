@@ -7,6 +7,7 @@
         <artifactId>zk-dubbo</artifactId>
         <groupId>com.jk</groupId>
         <version>${project.version}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>zk-dubbo-api</artifactId>
     <version>${project.version}</version>
@@ -15,11 +16,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://192.168.0.172:9090/repository/maven-releases/</url>
+            <url>http://192.168.128.129:9090/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://192.168.0.172:9090/repository/maven-snapshots/</url>
+            <url>http://192.168.128.129:9090/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
