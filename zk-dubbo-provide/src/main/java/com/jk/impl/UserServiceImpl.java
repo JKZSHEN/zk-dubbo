@@ -21,6 +21,7 @@ public class UserServiceImpl implements UserService {
     public int save(User user) {
         user.setAddress("浙江省杭州市");
         map.put(user.getId(),user);
+        System.out.println(user);
         return 1;
     }
 

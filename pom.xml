@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.jk</groupId>
     <artifactId>zk-dubbo</artifactId>
-    <version>${project.version}</version>
+    <version>1.0.0</version>
     <name>zk-dubbo</name>
     <modules>
         <module>zk-dubbo-api</module>
@@ -56,5 +56,4 @@
 
         </dependencies>
     </dependencyManagement>
-
 </project>
